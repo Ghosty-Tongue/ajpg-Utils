@@ -1,0 +1,41 @@
+How to Use ajpg Utils Scripts
+
+This guide will walk you through using the ajpg Utils Python scripts to unpack and manipulate ajpg files, as well as merge "j" and "p" files.
+
+Unpacking ajpg Files with ajpg.py:
+
+1. Install Python:
+   - Download and install Python 3.x from the official website: https://www.python.org/downloads/
+
+2. Install Required Modules:
+   - Open a terminal or command prompt.
+   - Run the following command to install required modules:
+     pip install pillow lxml
+
+3. Download Scripts:
+   - Clone this repository or download the Python script files.
+
+4. Unpacking ajpg Files:
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing the script files.
+   - To unpack an ajpg file, run:
+     python ajpg.py
+   - Follow on-screen instructions:
+     - Provide the path to a .ajpg file or a folder containing .ajpg files.
+     - The script will unpack files into a subfolder named "unpacked".
+
+Merging "j" and "p" files with composite.py:
+
+1. Install Python and Modules (if not done already).
+
+2. Download Scripts (if not done already).
+
+3. Merging Images:
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing the script files.
+   - To merge "j" and "p" images within subfolders, run:
+     python composite.py
+   - Follow on-screen instructions:
+     - The script will search for corresponding "j" and "p" images within subfolders.
+     - It will create merged images with alpha channels in an "output" folder.
+     - The merged image filename will match the subfolder name.
